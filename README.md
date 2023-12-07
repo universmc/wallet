@@ -21,6 +21,10 @@ Provide an introduction to your project. Explain its purpose, features, and any 
 
 List the key features of your project. Highlight what makes it unique or useful.
 
+# Open your preferred code editor
+code . [CMD]±[R] cat menu[]_opt
+
+
 ## Installation
 
 Include instructions on how to install and set up your project. You can provide code snippets or commands for installing dependencies, setting up a virtual environment, etc.
