@@ -7,7 +7,6 @@ def generate_sigmoid(diameter, weight):
     x = np.linspace(-diameter / 2, diameter / 2, 100)
     y = 1 / (1 + np.exp(-weight * x))
     return x, y
-
 def generate_svg(diameter, weight, tensor):
     dwg = svgwrite.Drawing('combined.svg', profile='tiny')
 
@@ -20,7 +19,8 @@ def generate_svg(diameter, weight, tensor):
         for j, value in enumerate(row):
             rect_x = j * 20  # Adjust as needed
             rect_y = 100 + i * 20  # Adjust as needed
-            dwg.add(dwg.rect((rect_x, rect_y), (15, 15), fill=f'rgb({value * 255}, {value * 255}, {value * 255})'))
+            # Use rect_x and rect_y within this loop
+            dwg.add(dwg.rect((rect_x, rect_y), (15, 15), fill=f'rgb({int(value * 255)}, {int(value * 255)}, {int(value * 255)})'))
 
     dwg.save()
 
