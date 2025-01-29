@@ -1,37 +1,48 @@
- dev.univers-mc.cloud
-dev cmd ls nlt to script ia
-# Project Name
+./
+# ------------------(({ +cal })}------------------------
+╔═══════════════════════════════════════════════════════════╗
+║               _                                           ║
+║   _   _ _ __ (_)_   _____ _ __ ___       _ __ ___   ___   ║
+║  | | | | '_ \| \ \ / / _ \ '__/ __|_____| '_ ' _' \| __|  ║
+║  | |_| | | | | |\ V /  __/ |  \__ \_____| | | | | | (__   ║
+║   \__,_|_| |_|_| \_/ \___|_|  |___/     |_| |_| |_|\___|  ║
+║                                                           ║
+╚═══════════════════════════════════════════════════════════╝
+# -------------------------------------(({ +regme })}------------------------------
+# Documentation du Projet
 
-A brief description of your project.
+Bienvenue dans la documentation du projet. Cette documentation fournit des informations sur la structure du projet, les composants, les procédures d'installation, et bien plus encore.
 
-## Table of Contents
+## Sections Principales
 
-- [Overview](#overview)
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+- [Structure du Projet](structure.md)
+- [Composants](components.md)
+- [Installation](installation.md)
+- [Utilisation](usage.md)
+- [Contributions](contributing.md)
+- [License](license.md)
+# -------------------------------------(({ +regme })}------------------------------
+╔═══════════════════════════════════════════════╗
+║[📗 📕 📒]:/┈┈┈┈┈┈┈┈{[┈┈┈┈codex┈┈┈┈┈]}┈┈┈┈┈┈┈┈>║   
+╠══════════╦════════════════════════════════════╣
+║          │                                    ║
+║          │                                    ║
+║          │                                    ║
+╠══════════╩════════════════════════════════════╣
+║/💻.📡/<: ██████░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 🛰 ║
+╚═══════════════════════════════════════════════╝
+# -------------------------------------(({ +Corde audio })}-------------------------- 
+╔──────────────────────────────────────────────────────────────────────────────────╗
+│██├:┈┈┈:┤██┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈:┤██│
+╚──────────────────────────────────────────────────────────────────────────────────╝
+# -------------------------------------(({ +tensor })}-----------------------------------------------
+- tensorBoprders="╔╗╚╝═║╠╣╦╩╬"
+- tensorReplie = '├┤┬┴┼╠╣╩';-
+- tensorRendu = '─│·:░▒▓█';  
+# -------------------------------------(({ +regme })}-----------------------------------------------
+# -------------------------------------(({ +Fibonacci})}---------------------------
+. ┈ ·· ::: ░░░░░ ▒▒▒▒▒▒ ▓▓▓▓▓▓▓▓▓▓▓▓▓ █████████████████████ :<[Ø] ║
+1 1 2   3    5     8          13              21  
+# -------------------------------------(({ +regme })}------------------------------
 
-## Overview
-
-Provide an introduction to your project. Explain its purpose, features, and any relevant background information.
-
-## Features
-
-List the key features of your project. Highlight what makes it unique or useful.
-
-# Open your preferred code editor
-code . [CMD]±[R] cat menu[]_opt
-
-
-## Installation
-
-Include instructions on how to install and set up your project. You can provide code snippets or commands for installing dependencies, setting up a virtual environment, etc.
-
-```bash
-# Example installation steps
-git clone https://github.com/universmc/dev.univers-mc.cloud.git
-cd dev.univers-mc.cloud
-pip install -r requirements.txt
-
+💰 > TRESOR:
