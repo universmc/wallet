@@ -1,5 +1,5 @@
 {
-    "name": "osint",
+    "name": "ascii",
     "version": "0.1.0",
     "private": true,
     "main": "main.js",
