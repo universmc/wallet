@@ -10,7 +10,7 @@ const groq = new Groq({ apiKey: process.env.GROQ_API_KEY });
 
 server.use(express.json());
 
-// Point d'entrée pour générer des réponses de chat avec GROQ
+// Point d'entrée pour générer des répo nses de chat avec GROQ
 server.post('/generate', async (req, res) => {
   const { prompt } = req.body;
 
