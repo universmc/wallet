@@ -1,0 +1,28 @@
+{
+    "userId": "identifiant_unique_utilisateur",
+    "address": "adresse_portefeuille_crypto",
+    "balance": {
+      "tokenCVUN": "montant_jetons_CVUN",
+      "tokenAutre": "montant_autres_jetons"
+    },
+    "transactions": [
+      {
+        "transactionId": "identifiant_unique_transaction",
+        "type": ["dépôt","retrait","transfert","récompense"],
+        "amount": "montant_transaction",
+        "token": ["tokenCVUN","tokenAutre"],
+        "timestamp": "date_heure_transaction",
+        "status": ["en_attente","confirmée","échouée"],
+        "details": "informations_supplémentaires"
+      }
+    ],
+    "preferences": {
+      "notifications": {
+        "transactions": true,
+        "formations": true,
+        "opportunites": true
+      },
+      "langue":[ "fr","en" ],
+      "devise": ["EUR","USD" ]
+    }
+  }

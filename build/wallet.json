@@ -1,0 +1,42 @@
+{
+    "utilisateurId": "unique_id_de_l_utilisateur",
+    "adressePortefeuille": "adresse_ethereum_de_l_utilisateur",
+    "solde": {
+      "jetonCVUN": "nombre_de_jetons",
+      "autreCrypto": "montant_en_autre_crypto"
+    },
+    "transactions": [
+      {
+        "idTransaction": "unique_id_de_la_transaction",
+        "type": "formation_completee | competence_validee | recompense | retrait",
+        "montant": "nombre_de_jetons",
+        "date": "timestamp_unix",
+        "statut": "en_attente | terminee | annulee",
+        "details": {
+          "formationId": "si_applicable",
+          "competenceId": "si_applicable",
+          "projetId": "si_applicable"
+        }
+      }
+    ],
+      "formationsEnCours": [
+          {
+              "formationId": "identifiant_de_la_formation",
+              "pourcentageCompletion": "pourcentage_de_progression"
+          }
+      ],
+    "recompensesRecues": [
+      {
+        "recompenseId": "identifiant_de_la_recompense",
+        "montant": "nombre_de_jetons",
+        "date": "timestamp_unix",
+        "description": "description_de_la_recompense"
+      }
+    ],
+      "competencesValidees": [
+          {
+              "competenceID":"identifiant_unique_de_la_compétence",
+              "dateValidation":"timestamp_unix"
+          }
+      ]
+  }
