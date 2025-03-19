@@ -1,0 +1,144 @@
+{
+    "@context": {
+      "cvun": "http://example.org/cvun#",
+      "schema": "http://schema.org/",
+      "pi": "http://pi.network#"
+    },
+    "@type": "cvun:CVLevelSystem",
+    "name": "Curriculum Vitae Numérique Universel (CVUN) - Niveaux",
+    "description": "Système de niveaux pour le développement et la gestion d'un CV numérique basé sur blockchain.",
+    "level": [
+      {
+        "@type": "cvun:Level",
+        "levelNumber": 1,
+        "name": "Introduction au CV numérique",
+        "description": "Base de données décentralisée pour stocker et vérifier les informations de CV.",
+        "capabilities": [
+          {
+            "@type": "schema:Capability",
+            "description": "Utilisation de la blockchain pour l'authenticité et la traçabilité des qualifications."
+          }
+        ]
+      },
+      {
+        "@type": "cvun:Level",
+        "levelNumber": 2,
+        "name": "Intégration des compétences vérifiables",
+        "description": "Ajout de micro-certifications et badges numériques vérifiables via smart contracts.",
+        "capabilities": [
+          {
+            "@type": "schema:Capability",
+            "description": "Vérification automatique des compétences via des contrats intelligents."
+          }
+        ]
+      },
+      {
+        "@type": "cvun:Level",
+        "levelNumber": 3,
+        "name": "Historique de carrière dynamique",
+        "description": "Implémentation d'un historique de carrière qui s'actualise automatiquement.",
+        "capabilities": [
+          {
+            "@type": "schema:Capability",
+            "description": "Mises à jour en temps réel des expériences professionnelles."
+          }
+        ]
+      },
+      {
+        "@type": "cvun:Level",
+        "levelNumber": 4,
+        "name": "Réputation et évaluation par les pairs",
+        "description": "Système de notation pour évaluer les compétences et l'éthique.",
+        "capabilities": [
+          {
+            "@type": "schema:Capability",
+            "description": "Système de feedback décentralisé pour la réputation professionnelle."
+          }
+        ]
+      },
+      {
+        "@type": "cvun:Level",
+        "levelNumber": 5,
+        "name": "Gestion des identités",
+        "description": "Utilisation de l'identité décentralisée pour la confidentialité.",
+        "capabilities": [
+          {
+            "@type": "schema:Capability",
+            "description": "Contrôle des données personnelles via des identités décentralisées."
+          }
+        ]
+      },
+      {
+        "@type": "cvun:Level",
+        "levelNumber": 6,
+        "name": "Automatisation des offres d'emploi",
+        "description": "Smart contracts pour matcher CV et offres d'emploi.",
+        "capabilities": [
+          {
+            "@type": "schema:Capability",
+            "description": "Recrutement automatisé basé sur les critères de compétence."
+          }
+        ]
+      },
+      {
+        "@type": "cvun:Level",
+        "levelNumber": 7,
+        "name": "Génération de revenus passifs",
+        "description": "Introduction des UMTS pour récompenser l'apprentissage et l'engagement.",
+        "capabilities": [
+          {
+            "@type": "schema:Capability",
+            "description": "Système de récompense via des tokens pour le développement personnel."
+          }
+        ]
+      },
+      {
+        "@type": "cvun:Level",
+        "levelNumber": 8,
+        "name": "Unités Capacitante Monétisations",
+        "description": "Monétisation directe des compétences via des micro-paiements.",
+        "capabilities": [
+          {
+            "@type": "schema:Capability",
+            "description": "Économie de la connaissance où chaque compétence est valorisée."
+          }
+        ]
+      },
+      {
+        "@type": "cvun:Level",
+        "levelNumber": 9,
+        "name": "Smart Contracts Spécifiques",
+        "description": "Contrats intelligents suivant le principe SMART.",
+        "capabilities": [
+          {
+            "@type": "schema:Capability",
+            "description": "Engagements éducatifs ou professionnels automatisés et vérifiables."
+          }
+        ]
+      },
+      {
+        "@type": "cvun:Level",
+        "levelNumber": 10,
+        "name": "Écosystème intégré",
+        "description": "Plateforme complète pour la gestion de carrière, apprentissage, et réseautage.",
+        "capabilities": [
+          {
+            "@type": "schema:Capability",
+            "description": "Système holistique de développement personnel et professionnel."
+          }
+        ]
+      }
+    ],
+    "tokenSystem": [
+      {
+        "@type": "pi:Token",
+        "name": "UMTS",
+        "description": "Unités Temporelles Métisétizable pour récompenser l'apprentissage et l'engagement."
+      },
+      {
+        "@type": "pi:Token",
+        "name": "UMC",
+        "description": "Unités  Monétisations Capacitante pour la monétisation directe des compétences."
+      }
+    ]
+  }
